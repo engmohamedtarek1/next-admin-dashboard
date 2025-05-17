@@ -9,7 +9,6 @@ import { ChevronDownIcon } from "@/icons";
 export default function SelectInputs() {
   const options = [
     { value: "marketing", label: "Marketing" },
-    { value: "template", label: "Template" },
     { value: "development", label: "Development" },
   ];
 

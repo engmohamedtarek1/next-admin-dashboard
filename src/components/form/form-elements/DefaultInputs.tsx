@@ -11,7 +11,6 @@ export default function DefaultInputs() {
   const [showPassword, setShowPassword] = useState(false);
   const options = [
     { value: "marketing", label: "Marketing" },
-    { value: "template", label: "Template" },
     { value: "development", label: "Development" },
   ];
   const handleSelectChange = (value: string) => {
